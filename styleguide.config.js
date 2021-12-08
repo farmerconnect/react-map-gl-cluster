@@ -8,7 +8,7 @@ module.exports = {
   pagePerSection: true,
   require: [path.resolve(__dirname, 'styleguide.setup.js')],
   moduleAliases: {
-    '@urbica/react-map-gl-cluster': path.resolve(__dirname, 'src')
+    '@farmerconnect/react-map-gl-cluster': path.resolve(__dirname, 'src')
   },
   webpackConfig: {
     module: {

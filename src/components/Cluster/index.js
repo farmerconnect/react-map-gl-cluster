@@ -2,7 +2,7 @@
 
 import Supercluster from 'supercluster';
 import { Children, PureComponent, createElement } from 'react';
-import { MapContext } from '@urbica/react-map-gl';
+import { MapContext } from '@farmerconnect/react-map-gl';
 import type MapboxMap from 'mapbox-gl/src/ui/map';
 
 import point from '../../utils/point';

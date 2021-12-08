@@ -1,25 +1,25 @@
 ## Installation
 
-This component is companion for [Urbica React Components Library for Mapbox GL JS](https://github.com/urbica/react-map-gl).
+This component is companion for [Urbica React Components Library for Mapbox GL JS](https://github.com/farmerconnect/react-map-gl).
 
-`@urbica/react-map-gl-cluster` requires `mapbox-gl`, `supercluster`, and `@urbica/react-map-gl` as peer dependencies:
+`@farmerconnect/react-map-gl-cluster` requires `mapbox-gl`, `supercluster`, and `@farmerconnect/react-map-gl` as peer dependencies:
 
 ```shell
-npm install mapbox-gl supercluster @urbica/react-map-gl @urbica/react-map-gl-cluster
+npm install mapbox-gl supercluster @farmerconnect/react-map-gl @farmerconnect/react-map-gl-cluster
 ```
 
 ...or if you are using yarn:
 
 ```shell
-yarn add mapbox-gl supercluster @urbica/react-map-gl @urbica/react-map-gl-cluster
+yarn add mapbox-gl supercluster @farmerconnect/react-map-gl @farmerconnect/react-map-gl-cluster
 ```
 
 ## Basic usage
 
 ```jsx
 import { randomPoint } from '@turf/random';
-import MapGL, { Marker } from '@urbica/react-map-gl';
-import Cluster from '@urbica/react-map-gl-cluster';
+import MapGL, { Marker } from '@farmerconnect/react-map-gl';
+import Cluster from '@farmerconnect/react-map-gl-cluster';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 const bbox = [-160, -70, 160, 70];
@@ -78,8 +78,8 @@ You can call `getCluster()` method on the `Cluster` [ref](https://reactjs.org/do
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { randomPoint } from '@turf/random';
-import MapGL, { Marker } from '@urbica/react-map-gl';
-import Cluster from '@urbica/react-map-gl-cluster';
+import MapGL, { Marker } from '@farmerconnect/react-map-gl';
+import Cluster from '@farmerconnect/react-map-gl-cluster';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 const bbox = [-160, -70, 160, 70];
