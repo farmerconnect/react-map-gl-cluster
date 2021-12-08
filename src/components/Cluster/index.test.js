@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import MapGL, { Marker } from '@urbica/react-map-gl';
+import MapGL, { Marker } from '@farmerconnect/react-map-gl';
 import Cluster from '../..';
 
 test('Cluster#render', () => {

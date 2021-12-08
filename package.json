@@ -1,12 +1,12 @@
 {
-  "name": "@urbica/react-map-gl-cluster",
+  "name": "@farmerconnect/react-map-gl-cluster",
   "version": "0.2.0",
   "description": "React Cluster Component for Mapbox GL JS",
   "author": "Stepan Kuzmin <to.stepan.kuzmin@gmail.com> (stepankuzmin.com)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/urbica/react-map-gl-cluster.git"
+    "url": "git://github.com/farmerconnect/react-map-gl-cluster.git"
   },
   "publishConfig": {
     "access": "public"
@@ -28,13 +28,10 @@
     "format": "prettier-eslint --write \"src/**/*.js\"",
     "cz": "git-cz",
     "release": "npm run build && standard-version",
-    "prepublishOnly": "npm run build",
-    "styleguide:build": "styleguidist build",
-    "styleguide:deploy": "gh-pages -m 'auto commit [ci skip]' -d styleguide",
-    "postpublish": "npm run styleguide:build && npm run styleguide:deploy"
+    "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
-    "@urbica/react-map-gl": "^1.0.0-alpha",
+    "@farmerconnect/react-map-gl": "^1.15.0",
     "supercluster": "^6.0.0"
   },
   "devDependencies": {
@@ -45,7 +42,7 @@
     "@babel/preset-flow": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
     "@turf/random": "^6.0.2",
-    "@urbica/react-map-gl": "^1.13.0",
+    "@farmerconnect/react-map-gl": "^1.15.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "codecov": "^3.6.1",
